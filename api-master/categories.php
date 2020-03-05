@@ -19,8 +19,8 @@ $list = $data['records'];
 foreach($list as $value){
 ?>
     <tr>
-        <td><?php echo $value['category_id'];?></td>
-        <td><?php echo $value['category_name'];?></td>
+        <td><?php echo $value['id'];?></td>
+        <td><?php echo $value['name'];?></td>
     </tr>
 <?php
 }
