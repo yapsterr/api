@@ -3,7 +3,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
 ?>
 <html> 
     <head>
-      <title>Endterm Activity #1</title>
+      <title>Angelo Yap (Yapster)</title>
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
