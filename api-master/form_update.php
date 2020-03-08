@@ -32,6 +32,7 @@
 					Price:<input type="text" name="price" value="<?php echo $result['price']; ?>"/>
 					Category:<select name="category">
 					<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
+						</select>
 						<?php
 						foreach($category as $cview){
 						?>
