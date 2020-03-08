@@ -28,6 +28,7 @@ $value = $list;
 					Product <input type="text" value="<?php echo $value['name'];?>"> 
 					Description <input type="text" value="<?php echo $value['description'];?>"> 
 					Price <input type="text" value="<?php echo $value['price'];?>">
+					Category <input type="text" value="<?php echo $value['category_name'];?>">
 					<div id ="link">
 							<a href="form_update.php?id=<?php echo $id ?>">Update</a> or
 							<a href="pro_delete.php?id=<?php echo $id ?>">Delete</a> </li>
